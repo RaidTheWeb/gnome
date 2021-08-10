@@ -28,7 +28,7 @@ class Car {
 		print "Your " + this.name + "'s colour is " + this.colour + "!";
 	}
 }
-var lamborghini = Car("red", "Lamborghini");
+let lamborghini = Car("red", "Lamborghini");
 lamborghini.honk();
 lamborghini.describe();
 lamborghini.accelerate();
